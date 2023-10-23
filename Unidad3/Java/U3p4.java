@@ -1,38 +1,56 @@
-package com.mycompany.u3p3;
+package com.mycompany.Programa4_U3;
+
 import java.util.Scanner;
+
 /**
  *
  * @author LaboratorioLTI2
  */
-public class U3p3 {
+public class u3p4 {
 
     public static void main(String[] args) {
-        Scanner day=new Scanner (System.in);
+        Scanner sc= new Scanner(System.in);
         int dia;
-        System.out.println("Introdusca el numero del dia de la semana: ");
-        dia=day.nextInt();
-        switch(dia){
-                case 1:
-                    System.out.println("Lunes");
-                    break;
-                case 2:
-                    System.out.println("Martes");
-                    break;
-                case 3:
-                    System.out.println("Miercoles");
-                    break;
-                case 4:
-                    System.out.println("Jueves");
-                    break;
-                case 5:
-                    System.out.println("Viernes");
-                    break;
-                case 6:
-                    System.out.println("Sabado");
-                    break;
-                case 7:
-                    System.out.println("Domingo");
-                    break;
-                            }
+        System.out.println("Programa para los meses del año.");
+        System.out.println("Introdusca un número para saber que mes es: ");
+        dia=sc.nextInt();
+                switch(dia){
+                    case 1:
+                        System.out.println("Es enero");
+                        break;
+                    case 2:
+                        System.out.println("Es febrero");
+                        break;
+                    case 3:
+                        System.out.println("Es marzo");
+                        break;
+                    case 4:
+                        System.out.println("Es abril");
+                        break;
+                    case 5:
+                        System.out.println("Es mayo");
+                        break;
+                    case 6:
+                        System.out.println("Es junio");
+                        break;
+                    case 7:
+                        System.out.println("Es julio");
+                        break;
+                    case 8:
+                        System.out.println("Es agosto");
+                        break;
+                    case 9:
+                        System.out.println("Es sepetiembre");
+                        break;
+                    case 10:
+                        System.out.println("Es octubre");
+                        break;
+                    case 11:
+                        System.out.println("Es noviembre");
+                        break;
+                    case 12:
+                        System.out.println("Es diciembre");
+                        break;
+                }
     }
 }
